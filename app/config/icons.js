@@ -1,0 +1,31 @@
+import React, { Component } from "react";
+import {GiWorld} from "react-icons/gi";
+import {AiOutlineShoppingCart, AiOutlineDollarCircle, AiOutlineEye} from "react-icons/ai";
+import {ImTruck,ImStatsDots} from "react-icons/im";
+import {FaHistory,FaLevelUpAlt,FaEdit} from "react-icons/fa";
+import {HiUsers} from "react-icons/hi";
+import {BsQuestionCircle} from "react-icons/bs";
+import {CgProductHunt, CgSize, CgListTree} from "react-icons/cg";
+import {FiSettings} from "react-icons/fi";
+import {SiBrandfolder} from "react-icons/si";
+import { PlusOutlined, SearchOutlined, MenuOutlined, EditOutlined, MailOutlined, UserAddOutlined, StockOutlined} from '@ant-design/icons';
+
+
+export const World = (props) => <GiWorld size={props.size ? props.size : "50px"}/>;
+export const TruckLine = (props) => <ImTruck size={props.size ? props.size : "50px"}/>;
+export const ShoppingCart = (props) => <AiOutlineShoppingCart size={props.size ? props.size : "50px"}/>;
+export const HistoryIcon = (props) => <FaHistory size={props.size ? props.size : "50px"}/>;
+export const Users = (props) => <HiUsers size={props.size ? props.size : "50px"}/>;
+export const LevelUpAlt = (props) => <FaLevelUpAlt size={props.size ? props.size : "50px"}/>;
+export const DollarCircle = (props) => <AiOutlineDollarCircle size={props.size ? props.size : "50px"}/>;
+export const StatsDots = (props) => <ImStatsDots size={props.size ? props.size : "50px"}/>;
+export const Question = (props) => <BsQuestionCircle size={props.size ? props.size : "50px"}/>;
+export const Product = (props) => <CgProductHunt size={props.size ? props.size : "50px"}/>;
+export const Settings = (props) => <FiSettings size={props.size ? props.size : "50px"}/>;
+export const Edit = (props) => <FaEdit size={props.size ? props.size : "50px"}/>;
+export const View = (props) => <AiOutlineEye size={props.size ? props.size : "50px"}/>;
+export const Size = (props) => <CgSize size={props.size ? props.size : "50px"}/>;
+export const AddCircelIcon = (props) => <PlusOutlined size={props.size ? props.size : "50px"}/>;
+export const SearchTableColIcon = (props) => <SearchOutlined size={props.size ? props.size : "50px"}/>;
+export const BrandIcon = (props) => <SiBrandfolder size={props.size ? props.size : "50px"}/>;
+export const CategoryIcon = (props) => <CgListTree size={props.size ? props.size : "50px"}/>;
