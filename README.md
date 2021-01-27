@@ -1,3 +1,10 @@
+## Project Details
+
+ - webpack  4
+ - antd
+ - react-icons
+ - context
+
 ## Project Structure
 
  - app
